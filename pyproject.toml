@@ -1,0 +1,12 @@
+[project]
+name = "paperless-hooks"
+version = "0.1.0"
+description = "A Python library for creating event-driven integrations with Paperless-NGX using decorators and webhooks"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.0.0",
+    "requests>=2.31.0",
+    "python-dateutil>=2.8.2",
+    "python-multipart>=0.0.20",
+]
